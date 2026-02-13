@@ -1,0 +1,137 @@
+╔══════════════════════════════════════════════════════════════════╗
+║         KANBAN BOARD - QUICK START INSTRUCTIONS                  ║
+╚══════════════════════════════════════════════════════════════════╝
+
+🚀 GET STARTED IN 3 STEPS:
+
+1. INSTALL DEPENDENCIES
+   -----------------------
+   Open terminal in the 'kanban-board' folder and run:
+   
+   npm install
+   
+   (This will take 2-3 minutes)
+
+2. START THE APP
+   -----------------------
+   After installation completes, run:
+   
+   npm run dev
+   
+3. OPEN IN BROWSER
+   -----------------------
+   The app will automatically open at:
+   http://localhost:3000
+   
+   If not, manually open this URL in your browser.
+
+═══════════════════════════════════════════════════════════════════
+
+📋 TESTING THE APP:
+
+1. REGISTER
+   - Click "Sign Up"
+   - Fill in the form (use any test data)
+   - Password must have: 8+ chars, 1 uppercase, 1 number, 1 special char
+   - Example password: Test@123
+
+2. LOGIN
+   - Use your username/email and password
+   - Complete the simple math CAPTCHA
+   - You'll be redirected to Dashboard
+
+3. CREATE TASKS
+   - Click "Go to Board"
+   - Fill the task form at the top
+   - Click "Create Task"
+   - Tasks appear in the Backlog column
+
+4. MANAGE TASKS
+   - Drag and drop tasks between columns
+   - Use ← → buttons to move tasks
+   - Click ✏️ to edit
+   - Click 🗑️ to delete
+   - Drag to trash bin (appears when dragging) to delete
+
+═══════════════════════════════════════════════════════════════════
+
+📁 IMPORTANT FILES:
+
+• README.md - Complete documentation
+• SETUP_GUIDE.md - Detailed setup instructions
+• package.json - Project dependencies
+• src/ - All source code
+
+═══════════════════════════════════════════════════════════════════
+
+✅ FEATURES IMPLEMENTED:
+
+✓ User Registration with validation
+✓ User Login with CAPTCHA
+✓ Dashboard with task statistics
+✓ Kanban Board with 4 stages
+✓ Create, Edit, Delete tasks
+✓ Drag and drop tasks
+✓ Move tasks between stages
+✓ Trash bin with confirmation
+✓ Priority levels (High, Medium, Low)
+✓ Deadline management
+✓ Responsive design
+✓ Modern UI with animations
+✓ Redux state management
+✓ Form validation
+✓ localStorage persistence
+
+═══════════════════════════════════════════════════════════════════
+
+🔧 REQUIREMENTS MET:
+
+Time Allocation (30 hours total):
+• Registration: 4 hours ✓
+• Login: 4 hours ✓
+• Dashboard: 4 hours ✓
+• Task Management: 16 hours ✓
+• Testing & Polish: 2 hours ✓
+
+Technology Stack:
+• ReactJS ✓
+• HTML, CSS ✓
+• Redux for state management ✓
+• REST API structure (with localStorage mock) ✓
+• Functional components with hooks ✓
+• ES6 standards ✓
+• Lazy loading ✓
+• Form validations ✓
+• Responsive design ✓
+
+═══════════════════════════════════════════════════════════════════
+
+❓ TROUBLESHOOTING:
+
+Issue: "npm command not found"
+→ Install Node.js from nodejs.org (v16 or higher)
+
+Issue: Port 3000 already in use
+→ Change port in vite.config.js or kill the process
+
+Issue: Blank page
+→ Check browser console (F12) for errors
+→ Ensure dev server is running
+
+Issue: npm install errors
+→ Delete node_modules and package-lock.json
+→ Run: npm cache clean --force
+→ Run: npm install again
+
+═══════════════════════════════════════════════════════════════════
+
+📞 SUPPORT:
+
+For detailed documentation, see:
+• README.md - Feature documentation
+• SETUP_GUIDE.md - Complete setup guide
+
+═══════════════════════════════════════════════════════════════════
+
+Built with React + Redux + Modern Web Technologies
+Ready for production deployment! 🎉
